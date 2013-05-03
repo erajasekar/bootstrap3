@@ -1,28 +1,29 @@
 {
-	"name": "twitter-bootstrap.docpad",
+	"name": "twitter-bootstrap-coffeekup.docpad",
 	"version": "0.10.0",
-	"description": "Twitter Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
-	"homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
+	"description": "Twitter Bootstrap skeleton for DocPad with coffeekup templates. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
+	"homepage": "https://github.com/lazurski/twitter-bootstrap-coffeekup.docpad",
 	"keywords": [
 		"docpad-skeleton",
 		"docpad",
 		"website",
 		"bootstrap",
-		"twitter bootstrap"
+		"twitter bootstrap",
+		"coffeekup"
 	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+	"author": "Tadeusz Łazurski <tadeusz@lazurski.pl> (http://lazurski.pl)",
 	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+		"Tadeusz Łazurski <tadeusz@lazurski.pl> (https://github.com/lazurski)"
 	],
 	"contributors": [
 		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"bugs": {
-		"url": "https://github.com/docpad/twitter-bootstrap.docpad/issues"
+		"url": "https://github.com/lazurski/twitter-bootstrap-coffeekup.docpad/issues"
 	},
 	"repository" : {
 		"type" : "git",
-		"url" : "https://github.com/docpad/twitter-bootstrap.docpad.git"
+		"url" : "https://github.com/lazurski/twitter-bootstrap.docpad.git"
 	},
 	"engines" : {
 		"node": "0.10",
@@ -33,7 +34,7 @@
 		"docpad-plugin-downloader": "2.x",
 		"docpad-plugin-cleanurls": "2.x",
 		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-eco": "2.x",
+		"docpad-plugin-coffeekup": "2.x",
 		"docpad-plugin-less": "2.x",
 		"docpad-plugin-marked": "2.x",
 		"docpad-plugin-partials": "2.x",
