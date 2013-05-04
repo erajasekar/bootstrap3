@@ -41,5 +41,5 @@ html ->
 
       footer ->
         p "&copy #{@site.author}"
-		
-		text @getBlock('scripts').add(@site.scripts).toHTML()
+    
+    text @getBlock('scripts').add(@site.scripts).toHTML()
