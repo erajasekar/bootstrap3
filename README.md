@@ -1,6 +1,8 @@
 # [Twitter Bootstrap](http://twitter.github.com/bootstrap/) skeleton for [DocPad](https://github.com/bevry/docpad)
 Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
 
+It's a [Coffeekup](http://coffeekup.org/) variant of Bevry's Bootstrap skeleton. It uses Coffeekup instead of Eco.
+
 
 ## Getting Started
 
@@ -9,8 +11,8 @@ Simple and flexible HTML, CSS, and Javascript for popular user interface compone
 1. Clone the project and run the server
 
 	``` bash
-	git clone git://github.com/docpad/twitter-bootstrap.docpad.git
-	cd twitter-bootstrap.docpad
+	git clone git://github.com/lzrski/twitter-bootstrap-coffeekup.docpad.git
+	cd twitter-bootstrap-coffeekup.docpad
 	npm install
 	docpad run
 	```
@@ -34,4 +36,4 @@ If you are wanting to close-source your website, we'd suggest using the followin
 
 Other included things such as themes and libraries are likely already licensed by their own invidual licenses, so be sure to respect their licenses too.
 
-Thanks, the DocPad team loves you.
+Thanks for the DocPad team - we all love you.
