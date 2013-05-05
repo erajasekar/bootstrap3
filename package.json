@@ -2,7 +2,7 @@
 	"name": "twitter-bootstrap-coffeekup.docpad",
 	"version": "0.10.0",
 	"description": "Twitter Bootstrap skeleton for DocPad with coffeekup templates. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
-	"homepage": "https://github.com/lazurski/twitter-bootstrap-coffeekup.docpad",
+	"homepage": "https://github.com/lzrski/twitter-bootstrap-coffeekup.docpad",
 	"keywords": [
 		"docpad-skeleton",
 		"docpad",
@@ -13,17 +13,17 @@
 	],
 	"author": "Tadeusz Łazurski <tadeusz@lazurski.pl> (http://lazurski.pl)",
 	"maintainers": [
-		"Tadeusz Łazurski <tadeusz@lazurski.pl> (https://github.com/lazurski)"
+		"Tadeusz Łazurski <tadeusz@lazurski.pl> (https://github.com/lzrski)"
 	],
 	"contributors": [
 		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
 	],
 	"bugs": {
-		"url": "https://github.com/lazurski/twitter-bootstrap-coffeekup.docpad/issues"
+		"url": "https://github.com/lzrski/twitter-bootstrap-coffeekup.docpad/issues"
 	},
 	"repository" : {
 		"type" : "git",
-		"url" : "https://github.com/lazurski/twitter-bootstrap.docpad.git"
+		"url" : "https://github.com/lzrski/twitter-bootstrap.docpad.git"
 	},
 	"engines" : {
 		"node": "0.10",
