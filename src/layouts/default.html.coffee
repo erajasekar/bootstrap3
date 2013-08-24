@@ -11,6 +11,7 @@ html ->
     text @getBlock('meta').toHTML()
     meta "name": "viewport", "content": "width=device-width, initial-scale=1.0"
 
+    # Shortcut icons
     link rel: "shortcut icon",                href: "/ico/favicon.png"
     link rel: "apple-touch-icon-precomposed", href: "/ico/apple-touch-icon-144-precomposed.png", sizes: "144x144"
     link rel: "apple-touch-icon-precomposed", href: "/ico/apple-touch-icon-114-precomposed.png", sizes: "114x114"
@@ -23,23 +24,37 @@ html ->
     text @getBlock('styles').add(@site.styles).toHTML()
 
     body ->
-      # TODO: Too long and probabily repetitive. Convert to helper (?)
-      div class: "navbar navbar-fixed-top", ->
-        div class: "navbar-inner", ->
-          div class: "container", ->
-            a class: "brand", href: "/", ->
-              @site.title
+      div class: "navbar navbar-default navbar-fixed-top", ->
+        div class: "container", ->
+          div class: "navbar-header", ->
+            button
+              type: "button"
+              class: "navbar-toggle"
+              data:
+                toggle: "collapse"
+                target: ".navbar-collapse"
+              ->
+                span class: "icon-bar" for i in [1..3]
 
-            ul class: "nav", ->
+            a class: "navbar-brand", href: "/", @site.title
+          div class: "collapse navbar-collapse", ->
+            ul class: "nav navbar-nav", ->
               for document in @getCollection('pages').toJSON()
-                li typeof: "sioc:Page", about: document.url, class: ('active' if @document.url is document.url), ->
-                  a href: document.url, property: "dc:title", ->
-                    document.title
+                li
+                  typeof: "sioc:Page"
+                  about: document.url
+                  class: ('active' if @document.url is document.url)
+                  ->
+                    a
+                      href: document.url
+                      property: "dc:title"
+                      document.title
 
     div class: "container", ->
       text @content
 
-      footer ->
-        p "&copy #{@site.author}"
+    footer id: "footer", ->
+      div class: "container", ->
+        p class: "text-muted credit", "&copy #{@site.author or 'Tadeusz Łazurski'}"
     
     text @getBlock('scripts').add(@site.scripts).toHTML()
