@@ -1,49 +1,49 @@
 {
-	"name": "twitter-bootstrap-coffeekup.docpad",
-	"version": "0.10.0",
-	"description": "Twitter Bootstrap skeleton for DocPad with coffeekup templates. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
-	"homepage": "https://github.com/lzrski/twitter-bootstrap-coffeekup.docpad",
-	"keywords": [
-		"docpad-skeleton",
-		"docpad",
-		"website",
-		"bootstrap",
-		"twitter bootstrap",
-		"coffeekup"
-	],
-	"author": "Tadeusz Łazurski <tadeusz@lazurski.pl> (http://lazurski.pl)",
-	"maintainers": [
-		"Tadeusz Łazurski <tadeusz@lazurski.pl> (https://github.com/lzrski)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"bugs": {
-		"url": "https://github.com/lzrski/twitter-bootstrap-coffeekup.docpad/issues"
-	},
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/lzrski/twitter-bootstrap.docpad.git"
-	},
-	"engines" : {
-		"node": "0.10",
-		"npm": "1.2"
-	},
-	"dependencies": {
-		"docpad": "6.x",
-		"docpad-plugin-cleanurls": "2.x",
-		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-coffeekup": "2.x",
-		"docpad-plugin-eco": "2.x",
-		"docpad-plugin-less": "2.x",
-		"docpad-plugin-marked": "2.x",
-		"docpad-plugin-partials": "2.x",
-		"docpad-plugin-related": "2.x",
-		"docpad-plugin-stylus": "2.x",
-		"docpad-plugin-text": "2.x"
-	},
-	"devDependencies": {
-		"docpad-plugin-livereload": "2.x"
-	},
-	"main": "node_modules/docpad/bin/docpad-server"
+  "name": "twitter-bootstrap-coffeekup.docpad",
+  "version": "0.11.0",
+  "description": "Twitter Bootstrap skeleton for DocPad with coffeekup templates. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
+  "homepage": "https://github.com/lzrski/twitter-bootstrap-coffeekup.docpad",
+  "keywords": [
+    "docpad-skeleton",
+    "docpad",
+    "website",
+    "bootstrap",
+    "twitter bootstrap",
+    "coffeekup"
+  ],
+  "author": "Tadeusz Łazurski <tadeusz@lazurski.pl> (http://lazurski.pl)",
+  "maintainers": [
+    "Tadeusz Łazurski <tadeusz@lazurski.pl> (https://github.com/lzrski)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "https://github.com/lzrski/twitter-bootstrap-coffeekup.docpad/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lzrski/twitter-bootstrap.docpad.git"
+  },
+  "engines": {
+    "node": "0.10",
+    "npm": "1.2"
+  },
+  "dependencies": {
+    "docpad": "6.x",
+    "docpad-plugin-cleanurls": "2.x",
+    "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-coffeekup": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-marked": "2.x",
+    "docpad-plugin-partials": "2.x",
+    "docpad-plugin-related": "2.x",
+    "docpad-plugin-stylus": "2.x",
+    "docpad-plugin-text": "2.x"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.x"
+  },
+  "main": "node_modules/docpad/bin/docpad-server"
 }
