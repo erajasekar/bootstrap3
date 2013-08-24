@@ -1,8 +1,8 @@
-# [Twitter Bootstrap](http://twitter.github.com/bootstrap/) skeleton for [DocPad](https://github.com/bevry/docpad)
+# [Twitter Bootstrap](http://getbootstrap.com/) skeleton for [DocPad](https://github.com/bevry/docpad)
+
 Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
 
-It's a [Coffeekup](http://coffeekup.org/) variant of Bevry's Bootstrap skeleton. It uses Coffeekup instead of Eco.
-
+It started as a [Coffeekup](http://coffeekup.org/) variant of Bevry's Bootstrap skeleton. It uses Coffeekup instead of Eco. I have also updated it to use [Twitter Bootstrap 3](http://getbootstrap.com/getting-started/#migration)
 
 ## Getting Started
 
@@ -20,7 +20,6 @@ It's a [Coffeekup](http://coffeekup.org/) variant of Bevry's Bootstrap skeleton.
 1. [Open http://localhost:9778/](http://localhost:9778/)
 
 1. Start hacking away by modifying the `src` directory
-
 
 ## License
 
