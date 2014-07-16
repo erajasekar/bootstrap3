@@ -96,6 +96,7 @@ docpadConfig = {
 	# Plugins
 
 	plugins: {}
+	
 
 	# =================================
 	# DocPad Events
